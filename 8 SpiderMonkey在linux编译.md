@@ -2,7 +2,7 @@
 
 参考[博客]<https://www.cnblogs.com/chenfool/p/3840625.html>     
 <https://www.cnblogs.com/jingzhishen/p/3600855.html>  
-[TOC]
+[TOC]  
 博客说明：  
 
 ​      测试系统 Ubuntu 18.04 LTS， js 1.7.0， js 解压在/opt/js 路径下，下载路径     <http://ftp.mozilla.org/pub/js/>  
