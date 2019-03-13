@@ -10,3 +10,11 @@
 
 #### git push
 
+### 在windows下采用：   
+#### git add 6" "git命令文件名带空格.md 
+#### git commit -m "win和linux有区别 "
+#### git push
+
+
+
+
