@@ -16,7 +16,7 @@ sudo apt-get install openssh-client
 ```shell
 sudo apt-get install openssh-service    
 ```
-
+如果出现  E: 无法找到软件包 openssh-service 不用管，再输入一次即可。  
 ## 4 启动ssh服务  
 ```shell
 sudo service ssh start      
