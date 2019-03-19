@@ -11,11 +11,11 @@ sudo apt-get update
 ```shell
 sudo apt-get install qt5-default qtcreator
 ```
-### 2.1 首次安装qtcreator容易出现的问题：
+### 2.1 首次安装qtcreator容易出现的问题：  
 * 1.点开option  
   ![011_4](./img/011_4.png)  
 
-* 2.原因是qt版本的问题
+* 2.原因是qt版本的问题  
   ![011_5](./img/011_5.png)  
 
 * 3.解决思路  
@@ -38,6 +38,6 @@ sudo apt-get install qt5-default qtcreator
 ```shell
 su - 
 ```
-## 5 安装新立得
-* 在软件中心搜索Synergy
-* 点击安装即可
+## 5 安装新立得  
+* 在软件中心搜索Synergy  
+* 点击安装即可  
