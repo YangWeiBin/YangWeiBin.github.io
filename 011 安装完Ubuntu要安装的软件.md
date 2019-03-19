@@ -14,6 +14,11 @@ sudo apt-get install qtcreator
 * 百度 ：sougou for linx  
 * 下载Ubnutu版本的搜狗输入法  
 * 直接通过Ubuntu软件中心安装  
+* 安装完成后在设置->区域和语言->键盘输入法系统->fcitx  
+* ![011_1](./img/011_1.png)  
+* ![011_2](./img/011_2.png)  
+* ![011_3](./img/011_3.png)  
+* 注销、重新登录   
 
 ## 4 获取root  
 ```shell
