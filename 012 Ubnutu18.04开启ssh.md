@@ -11,7 +11,7 @@ sudo apt-get update
 ```shell
 sudo apt-get install openssh-client  
 ```
-
+权限使用时，不用采用root，超级管理员即可。  
 ## 3 安装openssh-service  
 ```shell
 sudo apt-get install openssh-service    
