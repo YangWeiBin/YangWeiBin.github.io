@@ -19,6 +19,7 @@ sudo apt-get install qtcreator
 * ![011_2](./img/011_2.png)  
 * ![011_3](./img/011_3.png)  
 * 注销、重新登录   
+* 如果还不行就重启电脑    
 
 ## 4 获取root  
 ```shell
