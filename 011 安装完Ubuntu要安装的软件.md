@@ -7,9 +7,22 @@
 sudo apt-get update
 ```
 ## 2 安装IDE  
+
 ```shell
-sudo apt-get install qtcreator
+sudo apt-get install qt5-default qtcreator
 ```
+### 2.1 首次安装qtcreator容易出现的问题：
+* 1.点开option  
+  ![011_4](./img/011_4.png)  
+
+* 2.原因是qt版本的问题
+  ![011_5](./img/011_5.png)  
+
+* 3.解决思路  
+  ① 点击 Qt版本右侧的Manage，选择你的qmake目录位置，例如：/usr/lib/qt5/bin/qmake   
+  ②然后 Qt版本就由 无 -> 当前安装的qt版本  
+  ③点击“Ok”保存  
+  ![011_6](./img/011_6.png)  
 ## 3 安装搜狗  
 * 百度 ：sougou for linx  
 * 下载Ubnutu版本的搜狗输入法  
