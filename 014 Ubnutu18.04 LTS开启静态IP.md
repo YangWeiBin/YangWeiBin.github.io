@@ -27,5 +27,5 @@ sudo netplan apply
 ```
 ## 5 验证IP  
 ```shell
-ifconfig
+ip a
 ```
