@@ -51,9 +51,12 @@ sudo ln -sT  /media/yang/Windows/Users/YangWeibin/Desktop/记事本.md      /hom
 ```
 ![014_7](./img/014_7.png)   
 
+## 3 软链接问题思考  
+对于软链接创建时候，一定要注意，你写的路径是否是开机自动挂载的，如果不是，那么开机后，链接无效，需要挂载重新创建链接。如何实现手动自动挂载，请参考后面两篇博客。  
 
 
-## 3 参考内容  
+
+## 4 参考内容  
 1. https://jingyan.baidu.com/article/fb48e8bee5aabf6e622e14c8.html  
 2. https://blog.csdn.net/xujin0/article/details/83276094  
 3. https://blog.csdn.net/jdliyao/article/details/80622076  

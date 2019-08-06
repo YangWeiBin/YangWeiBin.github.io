@@ -106,6 +106,9 @@ sudo vim dns-clean
 如图所示：  
 ![017_11](./img/017_11.png)   
 
+## 4 更多方法  
+https://blog.csdn.net/UNIONDONG/article/details/86613069
+
 
 ## 参考内容  
 1. https://www.linuxidc.com/Linux/2017-09/147178.htm  

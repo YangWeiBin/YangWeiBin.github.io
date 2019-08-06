@@ -16,14 +16,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.c
-INCLUDEPATH+= /opt/js/src
+INCLUDEPATH+= /home/yang/Desktop/MyWork/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/js/src
 
 
 
 
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../opt/js/src/Linux_All_DBG.OBJ/release/ -ljs
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../opt/js/src/Linux_All_DBG.OBJ/debug/ -ljs
-else:unix: LIBS += -L$$PWD/../../../../opt/js/src/Linux_All_DBG.OBJ/ -ljs
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../js/src/Linux_All_DBG.OBJ/release/ -ljs
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../js/src/Linux_All_DBG.OBJ/debug/ -ljs
+else:unix: LIBS += -L$$PWD/../js/src/Linux_All_DBG.OBJ/ -ljs
 
-INCLUDEPATH += $$PWD/../../../../opt/js/src/Linux_All_DBG.OBJ
-DEPENDPATH += $$PWD/../../../../opt/js/src/Linux_All_DBG.OBJ
+INCLUDEPATH += $$PWD/../js/src/Linux_All_DBG.OBJ
+DEPENDPATH += $$PWD/../js/src/Linux_All_DBG.OBJ
+
+win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../js/src/Linux_All_DBG.OBJ/release/libjs.a
+else:win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../js/src/Linux_All_DBG.OBJ/debug/libjs.a
+else:win32:!win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../js/src/Linux_All_DBG.OBJ/release/js.lib
+else:win32:!win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../js/src/Linux_All_DBG.OBJ/debug/js.lib
+else:unix: PRE_TARGETDEPS += $$PWD/../js/src/Linux_All_DBG.OBJ/libjs.a

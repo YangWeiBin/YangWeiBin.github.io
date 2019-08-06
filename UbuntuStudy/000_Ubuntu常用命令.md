@@ -21,19 +21,42 @@ shutdown -h 10
 ```
 [参考博客](https://www.cnblogs.com/jiu0821/p/8420672.html)  
 ## 2 设置屏幕  
+
+cd /etc/init.d
+sudo update-rc.d -f MyHomeScreen.sh remove
 ```shell
 xrandr
 xrandr --output eDP-1-1 --off 
-```  
+```
 ## 3 修改开机次序  
 ```shell
 sudo vim  /etc/default/grub
 #更新grub.cfg文件，使刚才的改动生效  
 sudo update-grub
-```    
+```
 ## 4 创建快捷方式  
 ```shell
 sudo ln -sT  /media/yang/Windows/Users/YangWeibin/Desktop/记事本.md      /home/yang/Desktop/记事本.md
+```  
+## 5 卸载软件 
+1. 打开终端：  
+```shell
+dpkg --list
 ```
+2. 找到要卸载的软件  
+```shell
+sudo apt-get --purge remove gconf-editor
+```
+3. 继续执行  
+4. 可以再看看是否成功  
+**或者根据安装指令：**  
+```shell
+# sudo apt-get install flashplugin-installer
+sudo apt-get --purge remove flashplugin-installer
+```
+
+
+
+  
 
 
