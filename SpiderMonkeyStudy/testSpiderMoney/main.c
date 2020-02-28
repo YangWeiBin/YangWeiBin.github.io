@@ -4,7 +4,7 @@
 #include "string.h"
 
 
-static void usage();
+
 int main(void)
 {
     JSRuntime *runtime = NULL;
@@ -33,9 +33,4 @@ int main(void)
     JS_DestroyRuntime(runtime);
     JS_ShutDown();
     return EXIT_SUCCESS;
-}
-void usage()
-{
-    printf("example1 script_content\n");
-    printf("for example:./example1 \"var a=1;b=2;a+b\"\n");
 }
