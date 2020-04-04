@@ -23,8 +23,7 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
 
 - [代码目录<sup>TM</sup>](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)   
 - [代码目录1](#1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)  
-- [代码目录2](#2. `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`)   
-- [代码目录3](#3.`file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`)  
+- [代码目录3](#r1)  
 
 ## 4 参考网址
 
@@ -32,7 +31,9 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
 2. https://blog.csdn.net/tiokld/article/details/41694049  
 3. https://www.jianshu.com/p/2dc509d5cc82     
 
-######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/  
-######2. `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`   
-######3.`file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`   
+######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
+
+###### r1
+
+- `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`   
 
