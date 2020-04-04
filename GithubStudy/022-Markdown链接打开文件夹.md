@@ -10,7 +10,7 @@
 [示例代码目录](./023-代码目录测试022.html)    
 
 ## 22.4 可以直接复制到地址栏  
-file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/   
+file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/   
 
 ## 22.5 总结  
 
@@ -21,7 +21,7 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
 4. 推荐使用借助`file:///`在本地使用，为了兼容github可以再将链接保留备份，用于拷贝地址栏   
 ## 22.6 推荐写法
 
-- [代码目录<sup>TM</sup>](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)   
+- [代码目录<sup>[TM](#r1)</sup>](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)   
 - [代码目录1](#1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)  
 - [代码目录3](#r1)  
 
@@ -31,9 +31,9 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
 2. https://blog.csdn.net/tiokld/article/details/41694049  
 3. https://www.jianshu.com/p/2dc509d5cc82     
 
-######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/
+######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/
 
 ###### r1
 
-- `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/`   
+- `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/`   
 
