@@ -9,11 +9,14 @@
 ## 22.3 借助html文件  
 [示例代码目录](./023-代码目录测试022.html)    
 
+## 22.4 可以直接复制到地址栏  
+file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/   
+
 ## 3 总结
 
 1. 在github中无法点击超链接打开本地目录    
 2. 在本地和github都无法使用相对路径  
-3. 借助HTML可以在github打开？？？？  
+3. github打开html，但是？？？？  
 
 
 ## 4 参考网址  
