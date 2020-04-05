@@ -33,6 +33,7 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 1. <https://bbs.csdn.net/topics/392209456>   
 2. https://blog.csdn.net/tiokld/article/details/41694049  
 3. https://www.jianshu.com/p/2dc509d5cc82     
+4. https://support.typora.io/Links/#html-a-tag    
 
 
 ## 8 引用列表  
