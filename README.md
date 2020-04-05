@@ -1,40 +1,13 @@
-# 计划  
-
-
-
-
-
 # 目录  
-## GithubStudy  
-目录|本地|github
--|:-:|:-:
-001 firstBlog| [本地链接](./GithubStudy/001_firstBlog.html) |[github链接](./GithubStudy/001_firstBlog.html)  
-002 利用markdown整理笔记| [本地链接](./GithubStudy/002_利用markdown整理笔记.md) |[github链接](./GithubStudy/002_利用markdown整理笔记.md)  
-003 使用github添加、删除、重命名文档常用的语句|[本地链接](./GithubStudy/002_利用markdown整理笔记.md)|[github链接](./GithubStudy/002_利用markdown整理笔记.md)  
-004 更新github不用每次都输密码 |[本地链接](./GithubStudy/004_更新github不用每次都输密码.md)|[github链接](./GithubStudy/004_更新github不用每次都输密码.md)    
-005 如何更新整个仓库|[本地链接](./GithubStudy/005_如何更新整个仓库.md)|[github链接](./GithubStudy/005_如何更新整个仓库.md)    
-006 git命令文件名带空格|[本地链接](./GithubStudy/006_git命令文件名带空格)|[github链接](./GithubStudy/006_git命令文件名带空格)  
-007 保持本地图片和github图片路径一致|[本地链接](./GithubStudy/007_保持本地图片和github图片路径一致.md)|[github链接](./GithubStudy/007_保持本地图片和github图片路径一致.md)   
-008 批量修改文件名|[本地链接](./GithubStudy/008_批量修改文件名.md)|[github链接](./GithubStudy/008_批量修改文件名.md)  
-009 git远程提交常见问题|[本地链接](./GithubStudy/009_git远程提交常见问题.md) |[github链接](./GithubStudy/009_git远程提交常见问题.md)   
 
-## UbuntuStudy  
-目录|本地|github
--|:-:|:-:
-001 如何安装Ubuntu18.04|[本地链接](./UbuntuStudy/001_如何安装Ubuntu18.04.md) |[github链接](./UbuntuStudy/001_如何安装Ubuntu18.04.md)   
-002 安装完Ubuntu要安装的软件|[本地链接](./UbuntuStudy/002_安装完Ubuntu要安装的软件.md)|[github链接](./UbuntuStudy/002_安装完Ubuntu要安装的软件.md)  
-003 Ubnutu18.04开启ssh |[本地链接](./UbuntuStudy/003_Ubnutu18.04开启ssh.md)|[github链接](./UbuntuStudy/003_Ubnutu18.04开启ssh.md)   
-004 如何创建其他用户并赋予权限 |[本地链接](./UbuntuStudy/004_如何创建其他用户并赋予权限.md) |[github链接](./UbuntuStudy/004_如何创建其他用户并赋予权限.md)   
-005 Ubnutu18.04LTS开启静态IP |[本地链接](./UbuntuStudy/005_Ubnutu18.04LTS开启静态IP.md) |[github链接](./UbuntuStudy/005_Ubnutu18.04LTS开启静态IP.md)    
-006 远程登录Qtcreator问题 |[本地链接](./UbuntuStudy/006_远程登录Qtcreator问题) |[github链接](./UbuntuStudy/006_远程登录Qtcreator问题)   
+目录|本地路径|github路径
+:-:|:-:|:-:
+[GithubStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/)|<a href="#1">本地目录</a> |[github目录](./tree/master/GithubStudy)    
+[UbuntuStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/)|<a href="#2">本地目录</a>|[github目录](./tree/master/UbuntuStudy)  
+[WinAndOthers](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/) | <a href="#3">本地目录</a>|[github目录](./tree/master/WinAndOthers/)    
+[SpiderMonkey](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/) | <a href="#4">本地目录</a>|[github目录](./tree/master/SpiderMonkeyStudy)    
 
 
-## SpiderMonkey  
-目录|本地|github
--|:-:|:-:
-SpiderMonkey目录 |[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/01_目录.md)|[github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/01_目录.md)  
-SpiderMonkey学习|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/SpiderMonkeyStudy) | [github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/SpiderMonkeyStudy)    
-SpiderMonkey代码|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/SpiderMonkeyStudy/TestSpiderMonkey/main.c) | [github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/SpiderMonkeyStudy/TestSpiderMonkey/main.c)  
 
 
 
@@ -87,6 +60,13 @@ OOPJavaStudy|[本地链接](../OOP-Java/OOPJavaStudy) | [github链接](../../../
 Web(二)|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/WEB开发（二）) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/WEB开发（二）)  
 Java面向对象|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/Java面向对象程序设计) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/Java面向对象程序设计)  
 信息素养|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/信息素养与实践) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/信息素养与实践)  
+
+
+### 目录链接  
+<a name="1"></a> [1] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/   
+<a name="2"></a> [2] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/   
+<a name="3"></a> [3] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/
+<a name="4"></a> [4] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/   
 
 
 

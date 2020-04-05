@@ -36,7 +36,7 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 4. https://support.typora.io/Links/#html-a-tag    
 
 
-## 8 引用列表  
+## 8 链接目录  
 <a name="1"></a> [1] file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/   
 <a name="2"></a> file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/   
 <a name="3"></a> [3] `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/ `    
