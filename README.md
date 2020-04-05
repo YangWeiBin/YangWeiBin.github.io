@@ -2,10 +2,10 @@
 
 目录|本地路径|github路径
 :-:|:-:|:-:
-[GithubStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/)|<a href="#1">本地目录</a> |[github目录](./tree/master/GithubStudy)    
-[UbuntuStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/)|<a href="#2">本地目录</a>|[github目录](./tree/master/UbuntuStudy)  
-[WinAndOthers](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/) | <a href="#3">本地目录</a>|[github目录](./tree/master/WinAndOthers/)    
-[SpiderMonkey](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/) | <a href="#4">本地目录</a>|[github目录](./tree/master/SpiderMonkeyStudy)    
+[GithubStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/)|<a href="#1">本地目录</a> |[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/GithubStudy)    
+[UbuntuStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/)|<a href="#2">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/UbuntuStudy)  
+[WinAndOthers](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/) | <a href="#3">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/WinAndOthers/)    
+[SpiderMonkey](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/) | <a href="#4">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/SpiderMonkeyStudy)    
 
 
 
