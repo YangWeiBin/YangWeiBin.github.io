@@ -4,6 +4,7 @@
 - [示例代码目录](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)     
 - [示例代码目录1][1]   
 - [示例代码目录2][2]   
+- <a href="#1">Link to 1</a>
 
 ## 22.2 借助a href   
 - <a href="file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/">示例代码目录</a>   
@@ -38,7 +39,9 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 ######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/
 
 ###### [r1](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/)    
-
-[1]:file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/
+[1]:<file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/>
 [2]:file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/
+
+<a name="1"></a> file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/   
+
 
