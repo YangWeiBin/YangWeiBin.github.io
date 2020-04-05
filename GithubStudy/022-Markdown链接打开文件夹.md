@@ -21,7 +21,8 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 4. 推荐使用借助`file:///`在本地使用，为了兼容github可以再将链接保留备份，用于拷贝地址栏   
 ## 22.6 推荐写法
 
-- [代码目录<sup>[TM](#r1)</sup>](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)   
+- [代码目录<sup>TM</sup>](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)   
+- [代码目录](# [r1](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/)  )   
 - [代码目录1](#1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/src/)  
 - [代码目录3](#r1)  
 
@@ -33,7 +34,5 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 
 ######1.file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/
 
-###### r1
-
-- `file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/`   
+###### [r1](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/)    
 
