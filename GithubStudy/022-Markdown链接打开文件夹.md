@@ -14,6 +14,9 @@
 ## 4 可以直接复制到地址栏  
 file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/   
 
+## 5 新版的软件支持打开相对路径  
+[img](./img)
+
 ## 5 总结  
 
 1. 在github中无法点击超链接打开本地目录    
