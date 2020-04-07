@@ -30,6 +30,10 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 	- 返回本地仓库首页时，[../../Operating-System-Practice](../../Operating-System-Practice)    
 	- 返回github仓库首页，[../../../../Operating-System-Practice](../../../../Operating-System-Practice)     
 
+### 5.3 相对路径打开WeiMuYang的仓库(WeiMuYang的object-oriented-Java)首页   
+- 返回本地仓库首页时[../../../WeiMuYang/object-oriented-Java](../../../WeiMuYang/object-oriented-Java)   
+- 返回github仓库首页[../../../../../WeiMuYang/object-oriented-Java](../../../../../WeiMuYang/object-oriented-Java)   
+
 ## 6 总结  
 
 1. 在github中无法点击超链接打开本地目录    
@@ -40,8 +44,10 @@ file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-
 4. 推荐使用借助`file:///`在本地使用，为了兼容github可以再将链接保留备份，用于拷贝地址栏   
 5. 使用`[][]`引用在github不支持显示file链接   
 ## 7 推荐写法
-
-- [代码目录](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/)<a href="#1">[1]</a>   
+- 在同仓库的话推荐使用相对路径    
+	- [../GithubStudy](../GithubStudy)      
+- 对返回仓库首页(包括本仓库和其他仓库)的话使用绝对路径   
+	- [代码目录](file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/)<a href="#1">[1]</a>   
 
 
 ## 8 参考网址
