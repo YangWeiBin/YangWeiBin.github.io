@@ -15,7 +15,9 @@
 file:///f:/2019-2020-2nd-semester/03-beijing-interview/01-qtcreator/C++-GUI-Qt4-src/   
 
 ## 5 新版的软件支持打开相对路径  
-[img](./img)
+[img](./img)   
+[../GithubStudy](../GithubStudy)   
+[../../YangWeiBin.github.io](../../YangWeiBin.github.io)   
 
 ## 5 总结  
 
