@@ -1,4 +1,4 @@
-# 目录  
+# 仓库目录  
 
 目录|本地路径|github路径
 :-:|:-:|:-:
@@ -9,7 +9,7 @@
 
 
 
-
+# 其他仓库
 
 ## JavaScript  
 目录|本地|github
@@ -25,13 +25,6 @@ JavaScript代码|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/Jav
 OOP-Java目录|[本地链接](../OOP-Java/OOP-Java目录.md) | [github链接](../../../OOP-Java/blob/master/OOP-Java目录.md)   
 OOPJavaCode|[本地链接](../OOP-Java/OOPJavaCode) | [github链接](../../../OOP-Java/blob/master/OOPJavaCode)    
 OOPJavaStudy|[本地链接](../OOP-Java/OOPJavaStudy) | [github链接](../../../OOP-Java/blob/master/OOPJavaStudy)   
-
-## DataStruct  
-目录|本地|github
--|:-:|:-:
-数据结构目录 |[本地链接](../Data_Structur_Build/DataStruct目录.md) | [github链接](../../../Data_Structur_Build/blob/master/DataStruct目录.md)   
-数据结构PPT|[本地链接](../Data_Structur_Build/数据结构PPT) | [github链接](../../../Data_Structur_Build/blob/master/数据结构PPT)    
-数据结构代码|[本地链接](../Data_Structur_Build/数据结构代码) | [github链接](../../../Data_Structur_Build/blob/master/数据结构代码)    
 
 
 ## OperatingSystemPractice  
@@ -65,7 +58,7 @@ Java面向对象|[本地链接](../../edu2act/course-2018-2019-1st/courses/基�
 ### 目录链接  
 <a name="1"></a> [1] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/   
 <a name="2"></a> [2] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/   
-<a name="3"></a> [3] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/
+<a name="3"></a> [3] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/    
 <a name="4"></a> [4] file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/   
 
 
