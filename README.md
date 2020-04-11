@@ -1,22 +1,26 @@
-# 仓库目录  
+#  仓库目录   
 
-目录|本地路径|github路径
-:-:|:-:|:-:
-[GithubStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/GithubStudy/)|<a href="#1">本地目录</a> |[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/GithubStudy)    
-[UbuntuStudy](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/UbuntuStudy/)|<a href="#2">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/UbuntuStudy)  
-[WinAndOthers](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/WinAndOthers/) | <a href="#3">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/WinAndOthers/)    
-[SpiderMonkey](file:///f:/GithubRepository/YangWeiBin/YangWeiBin.github.io/SpiderMonkeyStudy/) | <a href="#4">本地目录</a>|[github目录](https://github.com/YangWeiBin/YangWeiBin.github.io/tree/master/SpiderMonkeyStudy)    
+仓库名|本地目录|github目录  
+-|-|-  
+[Ywb.github.io](#Ywb.github.io)|[本地目录](../YangWeiBin.github.io)|[github目录](../../../YangWeiBin.github.io)      
+[OurProject](#OurProject)|[本地目录](../OurProject)|[github目录](../../../OurProject)      
 
 
 
-# 其他仓库
+# Ywb.github.io    
+- [GithubStudy](./GithubStudy)  
+- [UbuntuStudy](./UbuntuStudy)   
+- [WinAndOthers](./WinAndOthers)   
+- [SpiderMonkey](./SpiderMonkeyStudy)   
+	- [JavaScriptStudy](./SpiderMonkeyStudy/JavaScriptStudy)    
+	- [SpiderMonkeyStudy](./SpiderMonkeyStudy/SpiderMonkeyStudy)  
+	- [WebStudy](./SpiderMonkeyStudy/WebStudy)  
+	- [code](./SpiderMonkeyStudy/code)  
 
-## JavaScript  
-目录|本地|github
--|:-:|:-:
-JavaScript目录|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/01_目录.md) | [github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/01_目录.md)  
-JavaScript学习|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/JavaScriptStudy) | [github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/JavaScriptStudy)          
-JavaScript代码|[本地链接](../../edu2act/Basic-Course-Group-Project/ywb/JavaScriptStudy/JavaScriptCode) | [github链接](../../../../edu2act/Basic-Course-Group-Project/blob/master/ywb/JavaScriptStudy/JavaScriptCode)  
+# 说明   
+- 每个仓库都有一个README用来存放文件路径情况   
+- 本仓库只负责跳转本仓库目录和所有仓库  
+
 
 
 ## OOP-Java  
@@ -44,15 +48,6 @@ OOPJavaStudy|[本地链接](../OOP-Java/OOPJavaStudy) | [github链接](../../../
 数据库|[本地链接](../../edu2act/course-2017-2018-2st/courses/基础课程/数据库原理) | [github链接](../../../edu2act/course-2017-2018-2st/blob/master/基础课程/数据库原理)  
 网络原理|[本地链接](../../edu2act/course-2017-2018-2st/courses/基础课程/网络原理) | [github链接](../../../edu2act/course-2017-2018-2st/blob/master/基础课程/网络原理)   
 
-
-### [2018-2019-1](../../../../edu2act/course-2018-2019-1st/blob/master/README.md)   
-目录|本地|github
--|:-:|:-:
-数据结构|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/数据结构) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/数据结构)  
-软件工程|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/软件工程) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/软件工程)  
-Web(二)|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/WEB开发（二）) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/WEB开发（二）)  
-Java面向对象|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/Java面向对象程序设计) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/Java面向对象程序设计)  
-信息素养|[本地链接](../../edu2act/course-2018-2019-1st/courses/基础课程/信息素养与实践) | [github链接](../../../edu2act/course-2018-2019-1st/blob/master/基础课程/信息素养与实践)  
 
 
 ### 目录链接  
