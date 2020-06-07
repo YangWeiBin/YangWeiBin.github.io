@@ -84,8 +84,15 @@ sudo svnadmin create /home/svn/test1
 2. 设置目录权限
 ```
   sudo chmod –R 777 /home/svn/test1
-# 若提示：chmod -R 无效模式，说明不可能是设置了 /home/svn/的读写权限，这个不用设置了
+# 若提示：chmod -R 无效模式，说明可能是设置了 /home/svn/的读写权限，这个不用设置了
   sudo chown -R www-data:www-data /home/svn/test1
+```
+
+3. 若需要添加和修改用户信息的话，可以用以下命令，进入文件修改   
+```
+sudo gedit /home/svn/passwd 
+
+sudo gedit /home/svn/authz  
 ```
 
 3. 配置conf目录下的svnserve.conf文件，详见上一篇，修改4个地方  
