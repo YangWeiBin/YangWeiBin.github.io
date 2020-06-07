@@ -1,0 +1,84 @@
+### This file is an example authorization file for svnserve.
+### Its format is identical to that of mod_authz_svn authorization
+### files.
+### As shown below each section defines authorizations for the path and
+### (optional) repository specified by the section name.
+### The authorizations follow. An authorization line can refer to:
+###  - a single user,
+###  - a group of users defined in a special [groups] section,
+###  - an alias defined in a special [aliases] section,
+###  - all authenticated users, using the '$authenticated' token,
+###  - only anonymous users, using the '$anonymous' token,
+###  - anyone, using the '*' wildcard.
+###
+### A match can be inverted by prefixing the rule with '~'. Rules can
+### grant read ('r') access, read-write ('rw') access, or no access
+### ('').
+
+[aliases]
+# joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average
+
+[groups]
+# harry_and_sally = harry,sally
+# harry_sally_and_joe = harry,sally,&joe
+
+admin_group = svnadmin, admin 
+p1_manage_group = wxy
+p1_dev_group = bigger
+p1_test_group = test
+
+ 
+gtop_manager_group  = omar
+gtop_developer_group  =  ywb, wxy, bigger
+gtop_test_group = test
+
+
+[svnroot:/]
+@admin_group = rw
+* = r
+
+
+[Project1:/]
+@admin_group = rw
+@p1_manage_group = rw
+* = r
+
+
+
+[GTOP:/]
+@admin_group = rw 
+@gtop_manager_group = rw 
+* = r  
+
+[GTOP:/1-development-library]
+@admin_group  =  rw
+@gtop_manager_group = r
+@gtop_developer_group = rw  
+@gtop_test_group = rw 
+* = r
+
+
+[GTOP:/2-controlled-library]
+@admin_group  =  rw
+@gtop_manager_group = r
+@gtop_developer_group = rw  
+@gtop_test_group = r 
+* = r
+
+[GTOP:/3-product-library]
+@admin_group  =  rw
+@gtop_manager_group = r
+@gtop_developer_group = r  
+@gtop_test_group = r 
+* = r
+
+
+
+# [/foo/bar]
+# harry = rw
+# &joe = r
+# * =
+
+# [repository:/baz/fuz]
+# @harry_and_sally = rw
+# * = r
