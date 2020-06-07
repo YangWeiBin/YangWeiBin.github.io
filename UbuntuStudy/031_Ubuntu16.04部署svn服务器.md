@@ -99,28 +99,28 @@ sudo gedit /home/svn/authz
 - 在文件中加入：    
 
 ```txt
-# 1 给用户分组
+# 1 给用户分组，取名时遵从C语言规则，不能用减号
 [groups]
-	admin-group = admin  
-	p1-manager-group  = omar
-	p1-developer-group  =  ywb, wxy, bigger
-	p1-test-group = test
+	admin_group = admin  
+	p1_manager_group  = omar
+	p1_developer_group  =  ywb, wxy, bigger
+	p1_test_group = test
 # 2 给每组分权限
 ## 根目录下，admin-group拥有所有权限，其他人只有读权限
 [svnroot:/]
-@admin-group = rw
+@admin_group = rw
 * = r
 ## project1目录：admin-group和p1-manager-group拥有所有权限，其他人只有读权限   
 [project1:/]
-@admin-group = rw 
-@p1-manager-group = rw 
+@admin_group = rw 
+@p1_manager_group = rw 
 * = r  
 
 [project1:/1-development-library]
-@admin-group  =  rw
-@p1-manager-group = r
-@p1-developer-group = rw  
-@p1-test-group = rw 
+@admin_group  =  rw
+@p1_manager_group = r
+@p1_developer_group = rw  
+@p1_test_group = rw 
 
 ## 其他类似 
 ```

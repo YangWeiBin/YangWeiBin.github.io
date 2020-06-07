@@ -67,7 +67,7 @@ sudo htpasswd [-c] /etc/apache2/dav_svn.passwd ywb
 ## 7 启动Apache服务   
 ```
 sudo /etc/init.d/apache2 restart
-```    
+```
 
 ## 8 测试http访问    
 - 在客户端，网址栏输入     
@@ -77,20 +77,29 @@ http://服务器地址/svn/库名
 
 ## 9 SVN添加新版本库方法   
 1. 创建版本库  
+```
 sudo svnadmin create /home/svn/test1  
+```
 
 2. 设置目录权限
-sudo chomd –R 777 /home/svn/test1
-sudo chown -R www-data:www-data /home/svn/test1
+```
+  sudo chmod –R 777 /home/svn/test1
+# 若提示：chmod -R 无效模式，说明不可能是设置了 /home/svn/的读写权限，这个不用设置了
+  sudo chown -R www-data:www-data /home/svn/test1
+```
 
-3. 配置conf目录下的svnserve.conf文件，详见上一篇   
-sudo vi svnserve.conf 
+3. 配置conf目录下的svnserve.conf文件，详见上一篇，修改4个地方  
+``` 
+    sudo gedit /home/svn/test1/conf/svnserve.conf   
+```
 
 4. 重启SVN服务  
-sudo pkill svnserve
-sudo svnserve -d -r /home/svn
+```
+    sudo pkill svnserve
+    sudo svnserve -d -r /home/svn
+```
 
-## 参考资料   
+## 10 参考资料   
 
 1. http://blog.sina.com.cn/s/blog_e76c0ac00102vjhg.html    
 2. https://www.cnblogs.com/daxuezhidao/p/5716213.html   
