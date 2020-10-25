@@ -40,6 +40,7 @@ ssh-keygen -t rsa -C "863255386@qq.com"
 最好不要敲三次回车，因为你用两个账号的话，可能会出现同名文件覆盖情况，在第一次时，输入文件名`id_rsa_ywb`，然后敲两次回车。  
 此时会出现两个文件：`id_rsa_ywb`和`id_rsa_ywb.pub`
 打开`id_rsa_ywb.pub`文件里面的内容就是ssh公钥，将公钥配置到github服务器上：  
+
 1. 在页面的用户栏的右上角，单击  Settings ；  
 2. 在左侧边栏点击 SSH and GPG keys；  
 3. 点击   New SSH key ；  
@@ -65,6 +66,7 @@ vim config
 ```
 如果已存在则直接编辑config文件，命令：vim config #这是linux的命令，进入了vim界面后按a或i或A或I进入编辑模式，编辑完成后按esc键输入:wq 保存文件退出  
 如果不存在则需要创建config文件，命令：touch config，再对config文件进行编辑：  
+
 ```shell
 #Default 第一个账号(863@xxxx.com)
 Host ywb
