@@ -23,7 +23,7 @@ sudo apt-get install qt5-default qtcreator
   ②然后 Qt版本就由 无 -> 当前安装的qt版本  
   ③点击“Ok”保存  
   ![002_6](./img/002_6.png)  
-## 3 安装搜狗  
+## 3 安装搜狗(不推荐)   
 * 先安装fcitx
 * 百度 ：sougou for linx  
 * 下载Ubnutu版本的搜狗输入法  
@@ -34,6 +34,9 @@ sudo apt-get install qt5-default qtcreator
 * ![002_3](./img/002_3.png)  
 * 注销、重新登录   
 * 如果还不行就重启电脑   
+* 同时，也可更新完源之后，调整成双拼，这样可以**不用安装搜狗也能使用双拼**    
+![002-10](./img/002-10.png)  
+
 ## 4 配置source  list源  
 Ubuntu 16.04下载软件速度有点慢，因为默认的是从国外下载软件，那就更换到国内比较好的快速更新源（就是这些软件所在的服务器），一般直接百度Ubuntu更新源就能出来一大堆，这时候最好是找和自己Ubuntu版本一致的更新源，我的Ubuntu版本是16.04，下面是我找到的一个比较好的更新源。  
 1. 搜索国内源  
@@ -74,9 +77,48 @@ sudo apt-get source package  # 下载该包的源代码
 sudo apt-get clean && sudo apt-get autoclean # 清理无用的包
 sudo apt-get check # 检查是否有损坏的依赖
 ```
-[参考博客](https://www.linuxidc.com/Linux/2017-11/148627.htm)    
+[参考博客](https://www.linuxidc.com/Linux/2017-11/148627.htm)      
 
-## 5 安装WIFI驱动  
+
+
+## 5 安装其他   
+1. 安装新立得  
+```shell
+apt-get install synaptic
+```
+
+2. 通过新立得安装qt4    
+
+3. 安装ssh   
+```shell 
+sudo apt-get update  
+sudo apt-get install openssh-client 
+sudo apt-get install openssh-server 
+sudo service ssh start  
+```
+
+4. 安装vim   
+
+```shell
+sudo apt install vim
+```
+
+5. 安装gcc，g++，gdb，make   
+```shell
+sudo apt update
+sudo apt install build-essential
+gcc --version
+sudo apt-get install gbd 
+```
+
+6. 安装smb   
+
+```shell
+sudo apt-get install samba  
+```
+
+
+## 6 安装WIFI驱动  
 1. 无WiFi：  
 ```shell
 sudo touch /etc/modprobe.d/ideapad.conf
@@ -94,14 +136,14 @@ sudo modprobe -r ideapad_laptop
 ```shell
 reboot
 ```
-## 6 更新软件  
+## 7 更新软件  
 1. 打开软件更新器：  
 ![002_9](./img/002_9.png)   
 2. 检查更新  
 第一次更新可能时间会比较长，但是在=耐心等待  
 3. 重启系统   
 更新完成后，会提示重启系统  
-## 7 安装Typroa  
+## 8 安装Typroa  
 ```shell    
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE  
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
@@ -116,7 +158,7 @@ sudo apt-get install typora
 # upgrade all packages include Typora
 sudo apt-get upgrade
 ```
-## 8 安装Git   
+## 9 安装Git   
 1. 安装Git软件  
 ```shell
 sudo apt install git
@@ -131,10 +173,7 @@ git config --global user.email 863255386@qq.com
 ```shell
 git config --list
 ```
-## 9 获取root  
+## 10 获取root  
 ```shell
 su - 
 ```
-## 10 安装新立得  
-* 在软件中心搜索Synergy  
-* 点击安装即可  
