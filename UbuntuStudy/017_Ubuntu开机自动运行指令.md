@@ -40,8 +40,34 @@ sudo vim /etc/rc.local
 1. 编写脚本文件  
 ```shell
 sudo vim /etc/init.d/mountDownLoad.sh
+sudo vim /etc/init.d/mountGithubRepository.sh
 ```
-添加以下内容：  
+添加以下内容：     
+```shell
+
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          mountWin10Disk.sh
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: start mountWin10Disk.sh
+# Description:       start mountWin10Disk.sh
+### END INIT INFO
+# command content
+sudo mount /dev/nvme0n1p4 /mnt/GithubRepository
+sudo mount /dev/nvme0n1p3 /mnt/Software
+sudo mount /dev/nvme0n1p2 /mnt/Win10
+sudo mount /dev/sda1 /mnt/DownLoad
+sudo mount /dev/sda2 /mnt/MyWork
+sudo mount /dev/sda4 /mnt/Others
+exit 0
+```
+
+
+
+
 ```shell
 #!/bin/bash
 ### BEGIN INIT INFO

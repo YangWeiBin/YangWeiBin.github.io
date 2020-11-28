@@ -1,4 +1,12 @@
-# Ubuntu挂载命令mount用法    
+# Ubuntu挂载命令mount用法       
+
+```shell
+# 关键命令就2条
+yang@Yang-Ubuntu-1804LTS:/mnt$ sudo mkdir GithubRepository
+yang@Yang-Ubuntu-1804LTS:/mnt$ sudo mount /dev/nvme0n1p4 GithubRepository
+```
+
+
 ## 1 什么是挂载  
 - Linux中的根目录以外的文件要想被访问，需要将其“关联”到根目录下的某个目录来实现，这种关联操作就是“挂载”，这个目录就是“挂载点”，解除次关联关系的过程称之为“卸载”。  
 - 在linux系统下可以挂接(mount)光盘镜像文件、移动硬盘、U盘以及Windows网络共享和UNIX NFS网络共享。  
