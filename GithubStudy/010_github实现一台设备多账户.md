@@ -78,7 +78,7 @@ IdentityFile ~/.ssh/id_rsa_ywb
 Host wmy
 HostName github.com
 PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_wmy
+IdentityFile ~/.ssh/id_rsa_wmy
 ```
 - Host设置别名，原先使用的帐号，你使用默认的就好；新的帐号就需要重新命名，名称随便你，好记就行；  
 - HostName 默认就是github.com 不需要去改动  
