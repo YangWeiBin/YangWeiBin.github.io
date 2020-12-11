@@ -1,6 +1,14 @@
-# Ubuntu常用命令  
-## 1 关机和重启  
-### 1.1 重启命令     
+# Ubuntu常用命令    
+
+## 1 修改开机次序  
+```shell
+sudo vim  /etc/default/grub
+#更新grub.cfg文件，使刚才的改动生效  
+sudo update-grub
+```
+
+## 2 关机和重启  
+### 2.1 重启命令     
 ```shell  
 # 1.立刻重启
 reboot   # 或者  shutdown -r now
@@ -10,7 +18,7 @@ shutdown -r 10
 shutdown -r 20:35 
 ```
 如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启   
-### 1.2 关机命令  
+### 2.2 关机命令  
 ```shell
 # 1. 立刻关机（一般加-p 关闭电源）
 halt   #或者  poweroff
@@ -20,7 +28,7 @@ shutdown -h now
 shutdown -h 10 
 ```
 [参考博客](https://www.cnblogs.com/jiu0821/p/8420672.html)  
-## 2 设置屏幕  
+## 3 设置屏幕  
 
 cd /etc/init.d
 sudo update-rc.d -f MyHomeScreen.sh remove
@@ -28,16 +36,11 @@ sudo update-rc.d -f MyHomeScreen.sh remove
 xrandr
 xrandr --output eDP-1-1 --off 
 ```
-## 3 修改开机次序  
-```shell
-sudo vim  /etc/default/grub
-#更新grub.cfg文件，使刚才的改动生效  
-sudo update-grub
-```
+
 ## 4 创建快捷方式  
 ```shell
 sudo ln -sT  /media/yang/Windows/Users/YangWeibin/Desktop/记事本.md      /home/yang/Desktop/记事本.md
-```  
+```
 ## 5 卸载软件 
 1. 打开终端：  
 ```shell
