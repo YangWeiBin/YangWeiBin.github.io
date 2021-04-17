@@ -108,7 +108,7 @@ sudo apt install vim
 sudo apt update
 sudo apt install build-essential
 gcc --version
-sudo apt-get install gbd 
+sudo apt-get install gdb 
 ```
 
 6. 安装smb   

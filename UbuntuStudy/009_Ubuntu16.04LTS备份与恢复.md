@@ -14,9 +14,18 @@ mkdir restore
 ```shell  
 tar cvpzf /restore/backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/mnt --exclude=/media --exclude=/sys --exclude=/restore /
 ```
+```
+tar pczf bak.tgz --exclude=/bak.tgz --exclude=/cdrom --exclude=/dev --exclude=/lost+found --exclude=/media --exclude=/mnt --exclude=/proc --exclude=/run --exclude=/sys --exclude=/tmp
+```
+
+
+
+
+
 这一步可能会提示’tar: Error exit delayed from previous  errors’，忽略即可  
 或者     tar: 由于前次错误，将以上次的错误状态退出    
 上面命令有：proc ，lost+found ，mnt，media， sys未备份  
+
 ### 1.4 备份移动  
 ```shell
 #移动到备份文件夹

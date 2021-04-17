@@ -73,3 +73,9 @@ sudo apt-get install gbd
 sudo apt-get install samba  
 ```
 
+11. 安装ifconfig   
+
+```shell
+sudo apt install net-tools
+```
+
