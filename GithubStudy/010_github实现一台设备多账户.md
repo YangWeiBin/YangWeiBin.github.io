@@ -35,7 +35,7 @@ sh的协议理解起来比https简单多了，大家可以[参考阮一峰老师
 # 先进入~/.ssh
 cd ~/.ssh 
 # 生成SSH Key
-ssh-keygen -t rsa -C "863255386@qq.com"
+ssh-keygen -t rsa -C "863255386@qq.com"    
 ```
 最好不要敲三次回车，因为你用两个账号的话，可能会出现同名文件覆盖情况，在第一次时，输入文件名`id_rsa_ywb`，然后敲两次回车。  
 此时会出现两个文件：`id_rsa_ywb`和`id_rsa_ywb.pub`
@@ -94,9 +94,11 @@ ssh -T git@ywb  # 如果有提示输入:yes
 ![2](./img/010_2.png)  
 
 **这里要注意并记住，使用旧帐号的时候，之前怎么用还是怎样；在使用新帐号的时候，比如在克隆仓库的时候，本来是这样的，如果不这样克隆的话，无法正常提交，会报URL错误。**     
+
 ```shell
 # 将 git clone https://github.com/账户名/仓库名.git 改为：  
 git clone git@wmy:账户名/仓库名.git
+git clone git@ywb:账户名/仓库名.git
 ```
 ![3](./img/010_3.png)
 
