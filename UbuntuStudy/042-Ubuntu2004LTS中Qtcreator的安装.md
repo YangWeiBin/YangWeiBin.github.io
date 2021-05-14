@@ -6,8 +6,8 @@
 3. 通过命令允许run文件    
 
 ```shell
-sudo chmod +x qt-opensource-linux-x64-5.12.9.run 
-sudo ./qt-opensource-linux-x64-5.12.9.run   
+sudo chmod +x 54-qt-opensource-linux-x64-5.12.8.run 
+sudo ./54-qt-opensource-linux-x64-5.12.8.run   
 ```
 
 4. 在安装时选项中，只要安卓的不选以及第一个选项的最后一个子选项不选，剩下的都要进行选择(**关键步骤**)     
@@ -17,6 +17,7 @@ sudo ./qt-opensource-linux-x64-5.12.9.run
 1. 安装g++   
 
 ```shell
+sudo apt update  # 非常重要尤其是UOS系统，否则安装不成功
 sudo apt-get install g++
 ```
 
@@ -32,7 +33,7 @@ gedit ~/.bashrc
 ```
 // 在文档添加
 ```txt
-export PATH=/opt/Qt5.12.9/Tools/QtCreator/bin:$PATH
+export PATH=/opt/Qt5.12.8/Tools/QtCreator/bin:$PATH
 ```
 
 4. 重启终端输入`qtcreator`即可启动软件       
@@ -50,8 +51,8 @@ sudo gedit /usr/share/applications/QtCreator.desktop
 Type=Application
 Name=QtCreator
 GenericName=QtCreator
-Exec=/opt/Qt5.12.9/Tools/QtCreator/bin/qtcreator
-Icon=/opt/Qt5.12.9/Tools/QtCreator/share/qtcreator/qbs/share/qbs/examples/cocoa-application/CocoaApplication/CocoaApplication.xcassets/AppIcon.appiconset/icon_512x512.png
+Exec=/opt/Qt5.12.8/Tools/QtCreator/bin/qtcreator
+Icon=/opt/Qt5.12.8/Tools/QtCreator/share/qtcreator/qbs/share/qbs/examples/cocoa-application/CocoaApplication/CocoaApplication.xcassets/AppIcon.appiconset/icon_512x512.png
 Terminal=false
 Categories=Development;Qt;
 ```
