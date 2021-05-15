@@ -10,7 +10,7 @@ q
 2  
 qq  
 qqq  
-<a name="anchor"></a> Anchor  
+<a name="anchor"></a>Anchor  
 q  
 2  
 qq  
@@ -18,7 +18,7 @@ qqq
 <a href="#anchor">Link to Anchor</a>  
 2  
 qq  
-qqq  
+qqq       
 
 <a name="anchor2"></a>Anchor2   
 2  
@@ -31,6 +31,7 @@ qqq
 1  
 q  
 qq    
+
 - [toA](#titleA)  
 q  
 q  
@@ -39,11 +40,13 @@ qq
 qqq  
 - [toB](#titleB)  
 
-### 3 改进a标签的显示效果    
+<body>:anchor: </body>
+
+### 3 改进a标签的显示效果      
 - 要隐藏空的，可以在自定义CSS中添加以下内容   
 - 文件 -> 偏好设置 -> 外观  ->  主题  ->  打开主题文件夹  -> 在对应的`*.css`文件最后添加   
 ```css
-/* hide the anchor HTML */
+/* 20210515 yang */
 a[name]:empty + .md-raw-inline {
   display:none;
 }
@@ -51,10 +54,10 @@ a[name]:empty {
   text-decoration: none;
 }
 a[name]:empty:before {
- content:"⚓";
+  content: "";  /* 可以修改成其他的图标，但是鉴于Markdown无法进行解析，因此还是把他变成 空  */
 }
-/* show the anchor HTML when cursor is inside */
-.md-expand .md-raw-inline {
+/* 20210515 yang */
+.md-expand .md-raw-inline {  
     display: inline !important;
 }
 ```
@@ -62,7 +65,8 @@ a[name]:empty:before {
 ##  4 总结     
 1. span 和div肯定不行，typroa不支持   
 2. 对于推荐的a标签，然后改进显示效果  
-3. 也可以使用标题完成，可以设置6级标题，专门代表跳转部分     
+3. 也可以使用标题完成，可以设置6级标题，专门代表跳转部分       
+4. 在Markdown本地修改css的方式不能成功加载图标   因此不提倡用添加图标方式 ，但是如果什么都不加的话，会显示a标签的源码，因此推荐将加载图标变成空 `""`   
 
 
 ## 5 参考网址  
