@@ -70,7 +70,7 @@ vim config
 ```shell
 #Default 第一个账号(863@xxxx.com)
 Host ywb
-HostName github.com
+HostName github.com  gerrit.uniontech.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa_ywb
 
