@@ -4,7 +4,9 @@
 - 锚点是网页制作中的一种，又叫命名锚记。命名锚记像一个迅速定位器一样是一种页面内的超级链接，运用相当普遍。  
 - markdown语法中是不支持锚点的，但是它可以通过标签和标题来实现跳转。  
 
-## 1 使用a标签(需要更新最新版)
+## 1 使用a标签(需要更新最新版)    
+
+<a href="#anchor">Link to Anchor</a>  
 
 q  
 2  
@@ -18,7 +20,7 @@ qqq
 <a href="#anchor">Link to Anchor</a>  
 2  
 qq  
-qqq       
+qqq   
 
 <a name="anchor2"></a>Anchor2   
 2  
