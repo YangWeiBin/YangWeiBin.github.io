@@ -71,8 +71,6 @@ Categories=Development;Qt;
 sudo apt-get install libgl1-mesa-dev 
 ```
 
-
-
 # 参考资料   
 1. https://www.cnblogs.com/wwzone/articles/13662946.html     
 2. https://blog.csdn.net/rong11417/article/details/89262716  
