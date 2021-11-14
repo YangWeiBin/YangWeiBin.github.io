@@ -72,7 +72,7 @@
 实现效果如下：
 
 <table border = 1 align = "center">
-       <tr align = "center"> <!--第一行，居中-->
+       <tr align = "center" align = "center"> <!--第一行，居中-->
          <td colspan="2">第一行第一列</td>  <!--第一行，第一个单元格，横向占两个格子-->
                                           <!--第一行，第二列不用写-->
          <td>第一行第三列</td>			  <!--第一行，第三列-->
@@ -106,3 +106,56 @@
 `<thead>`	| 定义表格的页眉
 `<tbody>`	| 定义表格的主体
 `<tfoot>`	| 定义表格的页脚
+
+
+
+
+
+
+
+<table text-align = "center" > <!--表格-->
+    <tr>  <!--第一行-->
+        <td rowspan="9" style=" vertical-align: middle !important " >窗口管理器</td>   <!--第一行，第二列-->
+        <td rowspan="4" style=" vertical-align: middle !important ">单应用窗口</td>   <!--第一行，第二列-->
+        <td rowspan="4" style=" vertical-align: middle !important ">核心</td>   <!--第一行，第二列-->
+        <td rowspan="4" style=" vertical-align: middle !important ">支持应用窗口打开默认最大化，支持部分应用全屏显示（无状态栏）;
+应用打开时支持单指从屏幕底部向上轻扫将应用最小化；<br>
+支持单指从屏幕左侧或右侧边缘向屏幕中心滑动，<br>滑动超过固定区域（提供配置）则自动切换到下一窗口；</td>   <!--第一行，第二列-->
+        <td>支持过渡动效：打开、最小化</td>	<!--第二行，第二列-->
+    </tr>
+    <tr>  <!--第二行-->
+        <td>[一期体验完善]应用窗口打开时，单指从屏幕底部边缘向上轻扫应最小化应用；</td>
+    </tr>
+    <tr>  <!--第三行-->
+        <td>应用内打开弹窗时，应支持响应系统手势；</td>
+    </tr>
+    <tr>  <!--第四行-->
+        <td>应用全屏显示时，应支持唤出显示下拉面板；</td>
+    </tr>
+    <tr>  <!--第五行-->
+    	<td rowspan="4" style=" vertical-align: middle !important ">多任务视图</td>   <!--第一行，第二列-->
+        <td rowspan="4" style=" vertical-align: middle !important ">核心</td>   <!--第一行，第二列-->
+        <td rowspan="4" style=" vertical-align: middle !important ">支持单指从屏幕底部向上滑动进入多任务视图，展示运行中应用的缩略窗口；<br>
+支持在多任务视图中快速切换进入不同应用窗口；<br>
+支持单指按住缩略窗口向上滑动快捷关闭应用；</td>   <!--第一行，第二列-->
+        <td>五指向内合拢进入多任务视图；</td>
+    </tr>
+    <tr>  <!--第六行-->
+        <td>支持过渡动效：多任务视图应跟手响应，而非等松手才出现；应用窗口随手动效和多任务视图的对应缩略图应联动；</td>
+    </tr>
+    <tr>  <!--第七行-->
+        <td>缩略图窗口：
+显示顺序-最后打开的应用窗口应位于右上角第一个；<br>
+UI效果模糊，需要优化；</td>
+    </tr>
+    <tr>  <!--第八行-->
+        <td>支持一键关闭全部已开启的应用窗口；</td>
+    </tr>
+    <tr>  <!--第九行-->
+        <td>分屏</td>	
+        <td>一般</td>	
+        <td>/</td>	
+        <td>支持分屏模式（分屏交互、分屏尺寸调整、退出分屏）</td>
+    </tr>
+</table>   
+
