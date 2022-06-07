@@ -69,10 +69,10 @@ vim config
 
 ```shell
 #Default 第一个账号(863@xxxx.com)
-Host ywb
-HostName github.com  
-PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_rsa_ywb
+Host ywb						   # 可以不写，后面直接用github的ssh克隆
+HostName github.com                  # 可以不写，后面直接用github的ssh克隆
+PreferredAuthentications publickey   # 必备
+IdentityFile ~/.ssh/id_rsa_ywb       # 必备
 
 #second 第二个账号（341@xxxx.com）
 Host wmy
@@ -100,6 +100,10 @@ ssh -T git@ywb  # 如果有提示输入:yes
 # 将 git clone https://github.com/账户名/仓库名.git 改为：  
 git clone git@wmy:账户名/仓库名.git
 git clone git@ywb:账户名/仓库名.git
+
+# 如果conf中没有写Host和HostName的话，用下面的方式克隆
+git clone git@github.com:账户名/仓库名.git
+git clone git@github.com:账户名/仓库名.git
 ```
 ![3](./img/010_3.png)
 
