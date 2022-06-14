@@ -22,6 +22,9 @@ Makefile*
 *.zip
 *.rar
 *.7z
+*-nf.*
+
+*.bak
 
 
 ## [Windows][https://www.cnblogs.com/xuld/p/5934319.html]
