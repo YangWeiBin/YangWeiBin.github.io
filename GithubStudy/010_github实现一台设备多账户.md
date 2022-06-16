@@ -1,4 +1,4 @@
-# github实现一台设备多个账户    
+# [github实现一台设备多个账户](./)    
 ## 1 github上传代的方式    
 git可以使用四种主要的协议来传输资料: 本地协议（Local），HTTP 协议，SSH（Secure Shell）协议及 git 协议。其中，本地协议由于目前大都是进行远程开发和共享代码所以一般不常用，而git协议由于缺乏授权机制且较难架设所以也不常用。  
 最常用的便是SSH和HTTP(S)协议。git关联远程仓库可以使用http协议或者ssh协议。  
@@ -69,10 +69,19 @@ vim config
 
 ```shell
 #Default 第一个账号(863@xxxx.com)
+PreferredAuthentications publickey   # 必备
+IdentityFile ~/.ssh/id_rsa_ywb       # 必备
+
+#Default 第一个账号(863@xxxx.com) 重复第一个也可以哈，支持两种克隆方式 
 Host ywb						   # 可以不写，后面直接用github的ssh克隆
 HostName github.com                  # 可以不写，后面直接用github的ssh克隆
 PreferredAuthentications publickey   # 必备
 IdentityFile ~/.ssh/id_rsa_ywb       # 必备
+
+
+#Default 第二个账号(341@xxxx.com)
+PreferredAuthentications publickey   # 必备
+IdentityFile ~/.ssh/id_rsa_wmy       # 必备
 
 #second 第二个账号（341@xxxx.com）
 Host wmy
@@ -108,6 +117,10 @@ git clone git@github.com:账户名/仓库名.git
 ![3](./img/010_3.png)
 
 
+
+ >### 注意事项：
+ >
+ >如果是两个人同时更新仓库，可以**添加协作**，这样可以通过全局区的账号，来更新另一个账号上的仓库了。  
 
 ## 参考资料  
 1. https://www.jianshu.com/p/f2bef9737a8a  
